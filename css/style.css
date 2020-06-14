@@ -1,0 +1,149 @@
+/* All Font families */
+/* font-family: 'Architects Daughter', cursive;
+font-family: 'Bad Script', cursive;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Handlee', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Knewave', cursive;
+font-family: 'Love Ya Like A Sister', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Nanum Pen Script', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Rancho', cursive;
+font-family: 'Rock Salt', cursive;
+font-family: 'Sacramento', cursive; */
+
+/* main elements */
+body {
+  background-color: #3E4551;
+}
+
+/* Title Section */
+.welcome-title {
+  text-align: center;
+  font-size: 11.5rem;
+  font-family: 'Love Ya Like A Sister', cursive;
+}
+
+.title-green{
+  color: #43a047;
+}
+
+.title-red{
+  color: #e53935;
+}
+
+.title-blue{
+  color: #039be5;
+}
+
+.title-yellow{
+  color: #f57f17;
+}
+
+/* Welcome title tooltip */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* display on loading */
+.display-on-load {
+  display: none;
+}
+
+/* heading */
+.heading {
+  text-align: center;
+  margin: auto;
+  font-family: 'Nanum Pen Script', cursive;
+  color: #ff5200;
+}
+
+.big-heading {
+  font-size: 8rem;
+}
+
+.video-heading {
+  margin-top: 20px;
+  font-size: 2rem;
+}
+
+/* instruction section */
+.box {
+  background-color: #2c003e;
+  width: 1000px;
+  border: 2px solid #888 !important;
+  /* padding: 20px 30px 8px 30px;
+  margin: 10px 100px 30px 150px; */
+  margin: auto;
+}
+
+.instruction-list {
+  line-height: 2.5;
+  font-size: 1.5rem;
+  color: #00C851;
+  font-family: 'Handlee', cursive;
+  display: table;
+  margin: 0 auto;
+}
+
+.video-heading {
+  margin-top: 50px
+}
+
+.youtube-video {
+  color: #ff5200;
+  font-size: 2rem;
+  font-family: 'Nanum Pen Script', cursive;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* simon game btn */
+.game-btn {
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* footer */
+.footer {
+  color: #f57f17;
+  text-align: center;
+  margin-top: 80px;
+}
