@@ -93,7 +93,6 @@ $('.game-tile').click(function () {
   // Now check the userClickedPattern and game generated pattern
   checkAnswer(userClickedPattern.length - 1);
 
-  new Audio('sounds/' + userSelectedColor + '.mp3').paused();
 });
 
 // Animation btn function
