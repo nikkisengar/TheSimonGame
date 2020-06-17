@@ -31,7 +31,7 @@ $(document).keypress(function () {
   $('.display-on-load').show();
 
   // start the game pattern when the landing page is simon-game.html and detect the first keypress
-  if (!started && (location.pathname == '/simon-game.html')) {
+  if (!started && location.pathname.split('/').includes('simon-game.html')) {
 
     // simonGame() to start the game pattern sequence
     simonGame();
