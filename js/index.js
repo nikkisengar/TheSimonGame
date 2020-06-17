@@ -66,7 +66,7 @@ function simonGame() {
   // adding the class to the game tile to change the color and play the audio
   $('.game-tile-' + randomGameTileColorSelected).addClass('event-game-tile-' +
   randomGameTileColorSelected);
-  new Audio('sounds/' + randomGameTileColorSelected + '.mp3').play();
+  new Audio('sounds/' + randomGameTileColorSelected + '.wav').play();
 
   // removing the class from the game tile to change the color and play the audio
   setTimeout(
@@ -91,7 +91,7 @@ $('.game-tile').click(function () {
     !gamePattern.includes(userSelectedColor))
     new Audio('sounds/wrong.mp3').play();
   else
-    new Audio('sounds/' + userSelectedColor + '.mp3').play();
+    new Audio('sounds/' + userSelectedColor + '.wav').play();
 
   // animate the btn clicked by user
   animateBtn(userSelectedColor);

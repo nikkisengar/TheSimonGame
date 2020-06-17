@@ -111,18 +111,22 @@ body {
 
 .game-tile-green {
   background-color: #1b5e20;
+  /* background-color: lime; */
 }
 
 .game-tile-red {
   background-color: #b71c1c;
+  /* background-color: red; */
 }
 
 .game-tile-blue {
   background-color: #0d47a1;
+  /* background-color: blue; */
 }
 
 .game-tile-yellow {
   background-color: #f57f17;
+  /* background-color: yellow; */
 }
 
 .event-game-tile-green {
