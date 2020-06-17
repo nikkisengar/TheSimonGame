@@ -15,41 +15,33 @@ font-family: 'Rock Salt', cursive;
 font-family: 'Sacramento', cursive;
 font-family: 'Press Start 2P', cursive;
 font-family: 'Caveat', cursive; */
-
 /* main elements */
 body {
   background-color: #3E4551;
 }
-
 /* Title Section */
 .welcome-title {
   text-align: center;
-  font-size: 8.5rem;
-  /* font-family: 'Love Ya Like A Sister', cursive; */
-  font-family: 'Press Start 2P', cursive;
+  font-size: 12.8rem;
+  font-family: 'Love Ya Like A Sister', cursive;
 }
 
 .title-green{
   color: #43a047;
 }
-
 .title-red{
   color: #e53935;
 }
-
 .title-blue{
   color: #039be5;
 }
-
 .title-yellow{
   color: #f57f17;
 }
-
 /* display on loading */
 .display-on-load {
   display: none;
 }
-
 /* heading */
 .heading {
   text-align: center;
@@ -57,14 +49,19 @@ body {
   font-family: 'Nanum Pen Script', cursive;
   color: #ff5200;
 }
-
 .big-heading {
   font-size: 8rem;
 }
-
 .video-heading {
   margin-top: 20px;
   font-size: 3.5rem;
+}
+
+.game-page-heading {
+  font-size: 2rem;
+  margin-top: 50px;
+  font-family: 'Press Start 2P', cursive;
+  color: #f0a500;
 }
 
 /* instruction section */
@@ -76,7 +73,6 @@ body {
   margin: 10px 100px 30px 150px; */
   margin: auto;
 }
-
 .instruction-list {
   line-height: 2.5;
   font-size: 1.5rem;
@@ -85,11 +81,9 @@ body {
   display: table;
   margin: 0 auto;
 }
-
 .video-heading {
   margin-top: 50px
 }
-
 .youtube-video {
   color: #ff5200;
   font-size: 2rem;
@@ -97,10 +91,66 @@ body {
   text-align: center;
   margin-top: 50px;
 }
-
 /* simon game btn */
 .game-btn {
   text-align: center;
+  margin-top: 30px;
+}
+
+/* game panel section */
+.game-tile {
+  width: 200px;
+  height: 200px;
+  border-radius: 15%;
+  margin-top: 50px;
+  margin-left: 89px;
+  margin-right: 80px;
+  display: inline-block;
+  border: 5px solid black;
+}
+
+.game-tile-green {
+  background-color: #1b5e20;
+}
+
+.game-tile-red {
+  background-color: #b71c1c;
+}
+
+.game-tile-blue {
+  background-color: #0d47a1;
+}
+
+.game-tile-yellow {
+  background-color: #f57f17;
+}
+
+.event-game-tile-green {
+  background-color: #a5d6a7;
+}
+
+.event-game-tile-red {
+  background-color: #e57373;
+}
+
+.event-game-tile-blue {
+  background-color: #90caf9;
+}
+
+.event-game-tile-yellow {
+  background-color: #fff59d;
+}
+
+/* Btn animation */
+.pressed{
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+/* game over */
+.game-over {
+  background-color: red;
+  opacity: 0.8;
   margin-top: 100px;
 }
 
